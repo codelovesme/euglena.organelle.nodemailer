@@ -1,6 +1,6 @@
 {
-  "name": "euglena.organelle.nodemailer",
-  "version": "1.0.0",
+  "name": "@euglena/organelle.nodemailer",
+  "version": "0.0.1",
   "description": "",
   "main": ".dist/src/index.js",
   "directories": {
@@ -12,8 +12,11 @@
     "start": "gulp buildAndTest && gulp watch"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name":"Fedai Kaya",
+    "email":"codelovesme@gmail.com"
+  },
+  "license": "GPL v2",
   "typings": ".dist/src/index.d.ts",
   "dependencies": {
     "@euglena/core": "^0.1.7",
